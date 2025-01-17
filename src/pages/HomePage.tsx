@@ -1,12 +1,12 @@
 import React from 'react';
 import Layout from '../components/Layout';
 import "../assets/styles/Home.css"
-import roadsideAssistanceImage from "../assets/images/Homepage/br5.jpg";
-import deliveriesImage from "../assets/images/Homepage/deliveries.jpg";
-import motorcycleTowingImage from "../assets/images/Homepage/motorcycle-towing.jpg";
-import flatbedTowingImage from "../assets/images/Homepage/flatbed-towing.jpg";
-import personImage from "../assets/images/Homepage/person-avatar.jpg"; 
-import quoteIcon from "../assets/images/Homepage/quote-icon.png"; 
+import roadsideAssistanceImage from '../../public/Images/Homepage/br5.jpg'
+import deliveriesImage from "../../public/Images/Homepage/deliveries.jpg";
+import motorcycleTowingImage from "../../public/Images/Homepage/motorcycle-towing.jpg";
+import flatbedTowingImage from "../../public/Images/Homepage/flatbed-towing.jpg";
+import personImage from "../../public/Images/Homepage/person-avatar.jpg"; 
+import quoteIcon from "../../public/Images/Homepage/quote-icon.png"; 
 const HomePage: React.FC = () => {
   return (
     <Layout>

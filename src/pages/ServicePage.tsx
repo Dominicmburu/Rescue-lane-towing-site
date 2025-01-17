@@ -1,10 +1,10 @@
 import React from "react";
 import Layout from "../components/Layout";
 import "../assets/styles/Services.css";
-import carTowingImage from "../assets/Images/Services/car-towing.jpg";
-import roadsideAssistanceImage from "../assets/Images/Services/roadside-assistance.jpg";
-import accidentRecoveryImage from "../assets/Images/Services/accident-recovery.jpg";
-import heavyLiftingImage from "../assets/Images/Services/heavy-lifting.jpg";
+import carTowingImage from "../../public/Images/Services/car-towing.jpg";
+import roadsideAssistanceImage from "../../public/Images/Services/roadside-assistance.jpg";
+import accidentRecoveryImage from "../../public/Images/Services/accident-recovery.jpg";
+import heavyLiftingImage from "../../public/Images/Services/heavy-lifting.jpg";
 
 const ServicesPage: React.FC = () => {
   return (
