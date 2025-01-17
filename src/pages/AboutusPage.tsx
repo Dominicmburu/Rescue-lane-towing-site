@@ -1,5 +1,5 @@
 import React from "react";
-import Layout from "../Components/Layout";
+import Layout from "../components/Layout";
 import "../assets/styles/About.css";
 
 const AboutPage: React.FC = () => {
