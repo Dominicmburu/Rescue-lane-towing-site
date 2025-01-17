@@ -1,11 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import HomePage from './Pages/HomePage';
-import ServicePage from './Pages/ServicePage';
-import ContactPage from './Pages/ContactPage';
-import BlogPage from './Pages/BlogPage';
-import AboutusPage from './Pages/AboutusPage'
-// import NotFoundPage from './pages/NotFoundPage/NotFoundPage';
+import HomePage from './pages/HomePage';
+import ServicePage from './pages/ServicePage';
+import ContactPage from './pages/ContactPage';
+import BlogPage from './pages/BlogPage';
+import AboutusPage from './pages/AboutusPage'
 
 const App: React.FC = () => {
   return (
