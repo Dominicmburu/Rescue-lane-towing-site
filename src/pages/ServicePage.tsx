@@ -1,5 +1,5 @@
 import React from "react";
-import Layout from "../Components/Layout";
+import Layout from "../components/Layout";
 import "../assets/styles/Services.css";
 import carTowingImage from "../assets/Images/Services/car-towing.jpg";
 import roadsideAssistanceImage from "../assets/Images/Services/roadside-assistance.jpg";

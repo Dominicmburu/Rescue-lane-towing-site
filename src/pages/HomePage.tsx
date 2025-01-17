@@ -1,5 +1,5 @@
 import React from 'react';
-import Layout from '../Components/Layout';
+import Layout from '../components/Layout';
 import "../assets/styles/Home.css"
 import roadsideAssistanceImage from "../assets/images/Homepage/br5.jpg";
 import deliveriesImage from "../assets/images/Homepage/deliveries.jpg";
