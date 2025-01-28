@@ -21,10 +21,14 @@
   align-items: center;
 }
 
+.header-logo img{
+  width: 60px;
+}
+
 .header-logo span {
   color: #ffa500;
   padding-left: 12px;
-  font-size: 35px;
+  font-size: 30px;
   font-weight: bolder;
 }
 
@@ -64,8 +68,14 @@
 .icon-phone {
   font-size: 45px;
   color: yellow;
+  margin-right: 12px;
 }
 
+.time{
+  font-size: 50px;
+  color: yellow;
+  margin-right: 12px;
+}
 
 
 @media (max-width: 768px) {
@@ -75,10 +85,21 @@
 
   .header-logo span {
     font-size: 18px;
+    display: none;
+
   }
 
-  .header-info-1 {
-    display: none;
+  .header-logo img{
+    width: 45px;
+  }
+
+  .header-info-1 .header-info-title {
+    font-size: 10px;
+  }
+
+  .header-info-1 span {
+    font-size: 10px;
+
   }
 
   .header-info-2 {
@@ -96,8 +117,13 @@
   }
 
   .icon-phone {
-    font-size: 27px;
-    margin-right: 12px;
+    font-size: 23px;
+    margin-right: 10px;
+  }
+
+  .time{
+    font-size: 30px;
+    margin-right: 0px;
   }
 }
 
