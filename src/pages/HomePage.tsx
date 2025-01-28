@@ -8,37 +8,45 @@ import flatbedTowingImage from "../../public/Images/Homepage/flatbed-towing.jpg"
 import personImage from "../../public/Images/Homepage/person-avatar.jpg";
 import quoteIcon from "../../public/Images/Homepage/quote-icon.png";
 
-
 const HomePage: React.FC = () => {
   return (
     <Layout>
       <div className="homepage">
         <header className="hero-section">
           <div className="hero-overlay">
-            <h1>Rescue Lane Towing- Kenya</h1>
-            <h2>Roadside Assistance When You Need It the Most</h2>
-            <h3>The Highest Quality Towing Services</h3>
-            <div className="emergency-box">
-              <p>24/7 Emergency Services</p>
-              <h2>0759955777</h2>
-            </div>
+            <h1>Rescue Lane Towing - Kenya</h1>
+            <h2>
+              Roadside Assistance, <span>When You Need It the Most</span>
+            </h2>
+            <h3>
+              The Highest Quality <br />
+              Towing Services
+            </h3>
           </div>
         </header>
 
+        <div className="emergency-box">
+          <p>24/7 Emergency Services</p>
+          <h2 className="emergency-number">0759955777</h2>
+        </div>
+
         <section className="about-section">
-          <h2>About Us</h2>
-          <p>
-            With over 15 years of experience, we aim to offer fast response and
-            reliable service to our customers. Our team of dedicated
-            professionals are available around the clock to cater for your
-            towing needs.
-          </p>
-          <p>
-            Our services span across Nairobi and into other towns like Mombasa,
-            Kisumu, Nakuru, Thika, and beyond. Trust Rescue Lane to prioritize
-            your safety and peace of mind.
-          </p>
-          <button>Read More</button>
+          <h2 className="about-h2">About Us</h2>
+          <div className="about-content">
+            <p>
+              With over 15 years of experience, we aim to offer fast response
+              and <br />
+              reliable service to our customers. Our team of dedicated
+              professionals are available <br /> around the clock to cater for
+              your towing needs.
+            </p>
+            <p className="p-s">
+              Our services span across Nairobi and into other towns like <br />{" "}
+              Mombasa, Kisumu, Nakuru, Thika, and beyond. <br /> Trust Rescue
+              Lane to prioritize your safety and peace of mind.
+            </p>
+            <button>Read More</button>
+          </div>
         </section>
 
         <section className="services-section">
