@@ -6,7 +6,7 @@ import deliveriesImage from "../../public/Images/Homepage/deliveries.jpg";
 import motorcycleTowingImage from "../../public/Images/Homepage/motorcycle-towing.jpg";
 import flatbedTowingImage from "../../public/Images/Homepage/flatbed-towing.jpg";
 import personImage from "../../public/Images/Homepage/person-avatar.jpg";
-import quoteIcon from "../../public/Images/Homepage/quote-icon.png";
+// import quoteIcon from "../../public/Images/Homepage/quote-icon.png";
 
 const HomePage: React.FC = () => {
   return (
