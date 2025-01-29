@@ -6,7 +6,7 @@ import deliveriesImage from "../../public/Images/Homepage/deliveries.jpg";
 import motorcycleTowingImage from "../../public/Images/Homepage/motorcycle-towing.jpg";
 import flatbedTowingImage from "../../public/Images/Homepage/flatbed-towing.jpg";
 import personImage from "../../public/Images/Homepage/person-avatar.jpg";
-import quoteIcon from "../../public/Images/Homepage/quote-icon.png";
+// import quoteIcon from "../../public/Images/Homepage/quote-icon.png";
 
 const HomePage: React.FC = () => {
   return (
@@ -30,7 +30,7 @@ const HomePage: React.FC = () => {
           <h2 className="emergency-number">0759955777</h2>
         </div>
 
-        <section className="about-section">
+        <section id="about" className="about-section">
           <h2 className="about-h2">About Us</h2>
           <div className="about-content">
             <p>
@@ -88,11 +88,11 @@ const HomePage: React.FC = () => {
                 they are just a phone call away!"
               </p>
             </div>
-            <img
+            {/* <img
               src={quoteIcon}
               alt="Quote Icon"
               className="quote-icon-right"
-            />
+            /> */}
           </div>
         </section>
       </div>

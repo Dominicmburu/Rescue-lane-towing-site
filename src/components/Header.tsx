@@ -17,8 +17,7 @@ const Header: React.FC = () => {
           <div className="ms-2 header-info-content">
             <span className="header-info-title text-warning">OPEN TIME</span>
             <div className="open">
-              <span className="header-info-subtitle">Open 24/7 || </span>
-              <span className="header-info-subtitle">Mon-Sun </span>
+              <p className="header-info-subtitle">Open 24/7 || Mon-Sun</p>
             </div>
           </div>
         </div>
