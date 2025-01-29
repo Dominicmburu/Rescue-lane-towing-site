@@ -123,7 +123,7 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   padding: 50px 30px;
   border: #bbb solid 3px;
-  z-index: 1000;
+  z-index: 100;
 }
 
 .emergency-box p {
@@ -267,11 +267,10 @@ body {
   color: #bbb;
 }
 
-/* TESTIMONIALS SECTION */
 .testimonials-section {
   padding: 50px 20px;
-  background-color: gainsboro; /* Black background */
-  color: #fff; /* White text */
+  background-color: gainsboro;
+  color: #fff;
   text-align: center;
 }
 
@@ -293,7 +292,7 @@ body {
 
 .testimonial-content {
   max-width: 600px;
-  background-color: #111; /* Darker section background */
+  background-color: #111;
   border-radius: 15px;
   padding: 30px;
   text-align: left;
