@@ -6,7 +6,7 @@ import deliveriesImage from "../../public/Images/Homepage/deliveries.jpg";
 import motorcycleTowingImage from "../../public/Images/Homepage/motorcycle-towing.jpg";
 import flatbedTowingImage from "../../public/Images/Homepage/flatbed-towing.jpg";
 import personImage from "../../public/Images/Homepage/person-avatar.jpg";
-// import quoteIcon from "../../public/Images/Homepage/quote-icon.png";
+import quoteIcon from "../../public/Images/Homepage/quote-icon.png";
 
 const HomePage: React.FC = () => {
   return (
@@ -49,7 +49,7 @@ const HomePage: React.FC = () => {
           </div>
         </section>
 
-        <section className="services-section">
+        <section id="services" className="services-section">
           <h2>We Specialize In</h2>
           <div className="service-list">
             <div className="service-item">
@@ -74,25 +74,170 @@ const HomePage: React.FC = () => {
         <section className="testimonials-section">
           <h2>Testimonials</h2>
           <div className="testimonial-container">
+          <div className="testimonial-wrapper">
             <div className="testimonial-content">
-              <img
-                src={personImage}
-                alt="Testimonial Person"
-                className="person-image"
-              />
-              <h3>Vivian Aoko</h3>
+              <div className="profl">
+                <img
+                  src={personImage}
+                  alt="Testimonial Person"
+                  className="person-image"
+                />
+                <h3>Vivian Aoko</h3>
+              </div>
               <p>
-                "Rescue Lane provided exceptional service when my car broke down
+                <img
+                  src={quoteIcon}
+                  alt="Quote Icon"
+                  className="quote-icon-left"
+                />
+                Rescue Lane provided exceptional service when my car broke down
                 in Nairobi's outskirts. Highly recommended! Their team was
                 professional, courteous, and quick to help. I feel safer knowing
-                they are just a phone call away!"
+                they are just a phone call away
+                <img
+                  src={quoteIcon}
+                  alt="Quote Icon"
+                  className="quote-icon-right"
+                />
               </p>
             </div>
-            {/* <img
-              src={quoteIcon}
-              alt="Quote Icon"
-              className="quote-icon-right"
-            /> */}
+
+            <div className="testimonial-content">
+              <div className="profl">
+                <img
+                  src={personImage}
+                  alt="Testimonial Person"
+                  className="person-image"
+                />
+                <h3>Vivian Aoko</h3>
+              </div>
+              <p>
+                <img
+                  src={quoteIcon}
+                  alt="Quote Icon"
+                  className="quote-icon-left"
+                />
+                Rescue Lane provided exceptional service when my car broke down
+                in Nairobi's outskirts. Highly recommended! Their team was
+                professional, courteous, and quick to help. I feel safer knowing
+                they are just a phone call away
+                <img
+                  src={quoteIcon}
+                  alt="Quote Icon"
+                  className="quote-icon-right"
+                />
+              </p>
+            </div>
+
+            <div className="testimonial-content">
+              <div className="profl">
+                <img
+                  src={personImage}
+                  alt="Testimonial Person"
+                  className="person-image"
+                />
+                <h3>Vivian Aoko</h3>
+              </div>
+              <p>
+                <img
+                  src={quoteIcon}
+                  alt="Quote Icon"
+                  className="quote-icon-left"
+                />
+                Rescue Lane provided exceptional service when my car broke down
+                in Nairobi's outskirts. Highly recommended! Their team was
+                professional, courteous, and quick to help. I feel safer knowing
+                they are just a phone call away
+                <img
+                  src={quoteIcon}
+                  alt="Quote Icon"
+                  className="quote-icon-right"
+                />
+              </p>
+            </div>
+
+            <div className="testimonial-content">
+              <div className="profl">
+                <img
+                  src={personImage}
+                  alt="Testimonial Person"
+                  className="person-image"
+                />
+                <h3>Vivian Aoko</h3>
+              </div>
+              <p>
+                <img
+                  src={quoteIcon}
+                  alt="Quote Icon"
+                  className="quote-icon-left"
+                />
+                Rescue Lane provided exceptional service when my car broke down
+                in Nairobi's outskirts. Highly recommended! Their team was
+                professional, courteous, and quick to help. I feel safer knowing
+                they are just a phone call away
+                <img
+                  src={quoteIcon}
+                  alt="Quote Icon"
+                  className="quote-icon-right"
+                />
+              </p>
+            </div>
+
+            <div className="testimonial-content">
+              <div className="profl">
+                <img
+                  src={personImage}
+                  alt="Testimonial Person"
+                  className="person-image"
+                />
+                <h3>Vivian Aoko</h3>
+              </div>
+              <p>
+                <img
+                  src={quoteIcon}
+                  alt="Quote Icon"
+                  className="quote-icon-left"
+                />
+                Rescue Lane provided exceptional service when my car broke down
+                in Nairobi's outskirts. Highly recommended! Their team was
+                professional, courteous, and quick to help. I feel safer knowing
+                they are just a phone call away
+                <img
+                  src={quoteIcon}
+                  alt="Quote Icon"
+                  className="quote-icon-right"
+                />
+              </p>
+            </div>
+
+            <div className="testimonial-content">
+              <div className="profl">
+                <img
+                  src={personImage}
+                  alt="Testimonial Person"
+                  className="person-image"
+                />
+                <h3>Vivian Aoko</h3>
+              </div>
+              <p>
+                <img
+                  src={quoteIcon}
+                  alt="Quote Icon"
+                  className="quote-icon-left"
+                />
+                Rescue Lane provided exceptional service when my car broke down
+                in Nairobi's outskirts. Highly recommended! Their team was
+                professional, courteous, and quick to help. I feel safer knowing
+                they are just a phone call away
+                <img
+                  src={quoteIcon}
+                  alt="Quote Icon"
+                  className="quote-icon-right"
+                />
+              </p>
+            </div>
+            
+          </div>
           </div>
         </section>
       </div>
