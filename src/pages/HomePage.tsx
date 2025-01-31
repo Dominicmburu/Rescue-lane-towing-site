@@ -68,6 +68,14 @@ const HomePage: React.FC = () => {
               <img src={flatbedTowingImage} alt="Flatbed Towing" />
               <p>Flatbed Towing</p>
             </div>
+            <div className="service-item">
+              <img src={flatbedTowingImage} alt="Flatbed Towing" />
+              <p>EMERGENCY FUEL DELIVERY & LOCKOUT</p>
+            </div>
+            <div className="service-item">
+              <img src={flatbedTowingImage} alt="Flatbed Towing" />
+              <p>Hea CRANE SERVICES</p>
+            </div>
           </div>
         </section>
 

@@ -15,7 +15,8 @@ body {
 
 .hero-section {
   position: relative;
-  height: 90vh;
+  /* height: 90vh; */
+  padding: 120px 0;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -111,8 +112,9 @@ body {
 
 .emergency-box {
   position: absolute;
-  bottom: -120px;
-  right: 100px;
+  /* bottom: -120px; */
+  margin-top: -170px;
+  right: 50px;
   background-color: #612104;
   color: #fff;
   border-radius: 10px;
@@ -124,6 +126,7 @@ body {
   padding: 50px 30px;
   border: #bbb solid 3px;
   z-index: 100;
+  max-width: fit-content;
 }
 
 .emergency-box p {
@@ -388,6 +391,19 @@ body {
   transform: rotate(180deg);
 }
 
+@media screen and (max-width: 1024) {
+  .emergency-box {
+      right: 60px;
+  }
+}
+
+@media screen and (max-width: 882) {
+  .emergency-box {
+      right: 50px;
+      /* padding: 30px 20px;       */
+  }
+}
+
 @media screen and (max-width: 768px) {
   .hero-section::after {
     background-color: rgba(0, 0, 0, 0.2);
@@ -415,8 +431,7 @@ body {
   }
 
   .emergency-box {
-    bottom: -100px;
-    right: 20px;
+    right: 40px;
     padding: 30px 20px;
   }
 
@@ -527,9 +542,11 @@ body {
   }
 
   .emergency-box {
-    bottom: -80px;
-    right: 10px;
+    /* bottom: -80px; */
+    /* right: 10px; */
     padding: 20px 15px;
+    margin-top: -100px;
+    right: 20px;
   }
 
   .emergency-box p:first-of-type {
@@ -582,6 +599,8 @@ body {
     padding: 70px 30px;
     width: 250px;
     gap: 20px;
+    display: flex;
+    flex-direction: column;
   }
 
   .person-image {
