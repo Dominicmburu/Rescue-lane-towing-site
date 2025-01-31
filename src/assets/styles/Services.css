@@ -4,61 +4,23 @@
 
 .services-page {
   font-family: Arial, sans-serif;
-  background-color: #000000;
   color: #fff;
   margin: 0;
   position: relative;
+  
 }
 
 .services-header {
-  height: 80vh;
-  width: 100%;
   position: relative;
-}
-
-.s-header{
-  position: absolute; 
-  top: 40%; 
-  left: 50%; 
-  transform: translate(-50%, -50%);
-  z-index: 3;
-  text-align: center;
-}
-
-.services-header h1 {
-  font-size: 3.5rem;
-  font-weight: bolder;
-  text-transform: uppercase;
-  color: #ff9900;
-  font-family: "Arial", serif;
-  white-space: nowrap;
-}
-
-.services-header p {
-  font-size: 1.0rem;
-  text-align: center;
-  font-weight: bolder;
-  color: #b6b5b4;
-  font-family: "Arial", serif;
-  letter-spacing: 1.5px;
-  margin-top: 60px;
-}
-
-.services-header p span{
-  color: #df972d;
-}
-
-.services-header::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  padding: 150px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  color: #fff;
+  background-image: url('../Images/Services/header-background.jpg');
   background-size: cover;
   background-position: center;
-  background-image: url('../Images/Services/header-background.jpg');
-  z-index: 1;
 }
 
 .services-header::after {
@@ -68,8 +30,42 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
-  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.s-header{
+  position: relative;
+  z-index: 10;
+  color: #fff;
+  width: 100%;
+  max-width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+ .s-header h1 {
+  font-size: 3.5rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  color: #ff9900;
+  font-family: "Arial", serif;
+  white-space: nowrap;
+}
+
+.s-header p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+  color: #bbb;
+  font-family: "Arial", serif;
+}
+
+.s-header p span {
+  color: #ffef5b;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 768px) {
@@ -99,7 +95,7 @@
 
 .services-container {
   position: relative;
-  height: 180vh;
+  /* height: 180vh; */
   align-items: center;
   display: flex;
   justify-content: center;
@@ -112,12 +108,10 @@
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
-  margin: 0 auto;
   gap: 20px;
-  margin: 20px 0;
-  position: absolute;
-  top: -120px;
+  margin: -50px 0;
   z-index: 5;
+  padding-bottom: 100px;
 }
 
 .service-card {
@@ -155,20 +149,12 @@
 }
 
 @media screen and (max-width: 768px) {
-  .services-container {
-    height: 200vh;
-  }
-
   .service-card {
     width: 45%;
   }
 }
 
 @media screen and (max-width: 480px) {
-
-  .services-container {
-    height: 480vh;
-  }
 
   .service-card {
     width: 90%;
