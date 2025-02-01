@@ -41,12 +41,16 @@
   letter-spacing: 2px;
 }
 
+.time-line{
+  background-color: #000000;
+}
+
 .timeline {
   position: relative;
   padding: 50px 0;
+  width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  background-color: #000000;
 }
 
 .timeline::before {

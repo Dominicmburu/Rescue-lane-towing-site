@@ -14,7 +14,11 @@ const BlogPage: React.FC = () => {
             {[1, 2, 3].map((index) => (
               <div className="blog-card" key={index}>
                 <h2>Kisumu Town - Towing and BreakDown Services</h2>
-                <p>Towing and breakdown...................................</p>
+                <p>
+                  Towing and breakdown services are essential in ensuring the
+                  safety of drivers and passengers. Whether it's a flat tire or a
+                  more serious breakdown, professional services are crucial.
+                </p>
                 <a href="/blog-post" className="read-more">
                   Read more
                 </a>
