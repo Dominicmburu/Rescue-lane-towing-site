@@ -3,7 +3,6 @@
   color: #fff;
   margin: 0;
   position: relative;
-  /* background-color: #000000; */
 }
 
 .about-header {
@@ -47,6 +46,7 @@
   padding: 50px 0;
   max-width: 1200px;
   margin: 0 auto;
+  background-color: #000000;
 }
 
 .timeline::before {
