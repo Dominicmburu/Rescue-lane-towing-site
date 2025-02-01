@@ -1,92 +1,185 @@
 .about-page {
-    background-color: #000;
-    color: #fff;
-    padding: 20px;
-    font-family: Arial, sans-serif;
-  }
-  
-  .about-header {
-    position: relative;
-    height: 300px; /* Increased height for more visibility */
-    background-image: url("../Images/About us/header.jpeg"); /* Replace with the actual background image path */
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .about-header h1 {
-    font-size: 3rem;
-    color: #ffcc00;
-    text-shadow: 2px 2px 5px #000;
-    margin: 0;
-    z-index: 2;
-  }
-  
-  .about-header::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Adds a dark overlay for better text contrast */
-    z-index: 1;
-  }
-  
-  
-  .about-section {
-    margin-bottom: 40px;
-  }
-  
-  .about-section h2 {
-    font-size: 1.8rem;
-    color: #ffcc00;
-    margin-bottom: 10px;
-  }
-  
-  .about-section p {
-    font-size: 1rem;
-    color: #ccc;
-    line-height: 1.6;
-  }
-  
-  .about-team {
-    text-align: center;
-    margin-top: 50px;
-  }
-  
-  .about-team h2 {
-    font-size: 1.8rem;
-    color: #ffcc00;
-    margin-bottom: 20px;
-  }
-  
-  .about-team img {
+  font-family: Arial, sans-serif;
+  color: #fff;
+  margin: 0;
+  position: relative;
+  background-color: #000000;
+}
+
+.about-header {
+  position: relative;
+  padding: 150px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-image: url('Images/About us/header.jpeg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.about-header::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.about-header h1 {
+  position: relative;
+  z-index: 10;
+  color: #ff9900;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: bolder;
+  margin-bottom: 20px;
+  font-family: "Arial", serif;
+  letter-spacing: 2px;
+}
+
+.timeline {
+  position: relative;
+  padding: 50px 0;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 4px;
+  background-color: #ff9900;
+  transform: translateX(-50%);
+}
+
+.timeline-item {
+  position: relative;
+  width: 50%;
+  padding: 30px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.timeline-item.left {
+  left: 0;
+  text-align: right;
+}
+
+.timeline-item.right {
+  left: 50%;
+  text-align: left;
+}
+
+.timeline-content {
+  background-color: #1f1e1e;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  border-left: 4px solid #ff9900;
+  border-right: 4px solid #ff9900;
+}
+
+.timeline-content h2 {
+  color: #ff9900;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.timeline-content p {
+  color: #bbb;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  font-family: "Arial", serif;
+}
+
+@media screen and (max-width: 768px) {
+  .timeline-item {
     width: 80%;
-    max-width: 600px;
-    border-radius: 10px;
-    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .timeline::before {
+    left: 5%; 
+    width: 2px;
   }
   
-  .about-team p {
+  .timeline-item.left {
+    left: 15%;
+    text-align: right;
+  }
+  
+  .timeline-item.right {
+    left: 5%;
+    text-align: left;
+  }
+
+  .about-header h1 {
+    font-size: 2.5rem;
+  }
+
+  .timeline-content h2 {
+    font-size: 1.8rem; 
+  }
+
+  .timeline-content p {
     font-size: 1rem;
-    color: #ccc;
-    line-height: 1.6;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .timeline-item {
+    width: 70%;
+    padding: 15px;
+    text-align: center;
+  }
+
+  .timeline::before {
+    left: 5%;
+    width: 2px;
   }
   
-  @media (max-width: 768px) {
-    .about-team img {
-      width: 100%;
-    }
-  
-    .about-header h1 {
-      font-size: 2rem;
-    }
-  
-    .about-section h2 {
-      font-size: 1.5rem;
-    }
+  .timeline-item.left {
+    left: 3%;
+    text-align: right;
   }
   
+  .timeline-item.right {
+    left: 3%;
+    text-align: left;
+  }
+
+  .about-header h1 {
+    font-size: 2rem; 
+  }
+
+  .timeline-content h2 {
+    font-size: 1.6rem;
+  }
+
+  .timeline-content p {
+    font-size: 0.9rem;
+  }
+
+  .timeline-item {
+    width: 100%; 
+    padding: 15px; 
+    margin-bottom: 20px; 
+  }
+
+  .timeline-content {
+    padding: 15px;
+  }
+}

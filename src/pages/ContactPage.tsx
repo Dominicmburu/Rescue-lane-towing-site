@@ -6,12 +6,17 @@ const ContactUsPage: React.FC = () => {
   return (
     <Layout>
       <div className="contact-us-page">
-        {/* Header Section */}
         <div className="contact-header">
           <h1>CONTACT US</h1>
+          <p className="contact-tagline">
+            Need Assistance? We’re Just a Call Away!
+          </p>
+          <p className="contact-description">
+            Whether you're stuck on the road or need quick assistance, our
+            experts are ready to help you 24/7. Reach out now!
+          </p>
         </div>
 
-        {/* Call to Action Section */}
         <div className="cta-section">
           <div className="cta-text">
             <h2>READY TO GET BACK ON THE ROAD?</h2>
@@ -22,10 +27,11 @@ const ContactUsPage: React.FC = () => {
               professional towing assistance for your vehicle.
             </p>
           </div>
-          <a href="tel:0759595577" className="cta-button">Call Rescue Lane!</a>
+          <a href="tel:0759595577" className="cta-button">
+            Call Rescue Lane!
+          </a>
         </div>
 
-        {/* Map Section */}
         <div className="map-section">
           <div className="google-map">
             <iframe
@@ -40,7 +46,6 @@ const ContactUsPage: React.FC = () => {
           </div>
         </div>
 
-        {/* Contact Form Section */}
         <div className="contact-form-section">
           <h2>SEND US A MESSAGE</h2>
           <form>
@@ -59,17 +64,6 @@ const ContactUsPage: React.FC = () => {
             <button type="submit">SUBMIT</button>
           </form>
         </div>
-
-        {/* Footer Section 
-        <div className="footer">
-          <p>Connect with us:</p>
-          <div className="social-icons">
-            <a href="#"><img src="/path/to/tiktok-icon.png" alt="TikTok" /></a>
-            <a href="#"><img src="/path/to/facebook-icon.png" alt="Facebook" /></a>
-            <a href="#"><img src="/path/to/instagram-icon.png" alt="Instagram" /></a>
-            <a href="#"><img src="/path/to/email-icon.png" alt="Email" /></a>
-          </div> 
-        </div> */}
       </div>
     </Layout>
   );

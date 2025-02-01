@@ -433,6 +433,7 @@ body {
   .emergency-box {
     right: 40px;
     padding: 30px 20px;
+    margin-top: -130px;
   }
 
   .emergency-box p:first-of-type {
