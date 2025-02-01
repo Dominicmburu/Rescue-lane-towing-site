@@ -163,52 +163,110 @@
 
 
 .pricing-section {
-  margin: 20px 0;
-  background-image: url('../Images/Services/pricing.avif');
+  margin: 0px 0;
+  background-color: #0f0f0f;
+  background-size: cover;
+  background-position: center;
+  padding: 60px 0;
+  position: relative;
+  z-index: 1;
 }
 
 .pricing-section h2 {
   text-align: center;
-  color: #ffcc00;
+  color: #ff9900;
+  font-size: 2.8rem;
+  margin-bottom: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Arial", serif;
 }
 
 .pricing-tables {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
   flex-wrap: wrap;
-  gap: 20px;
 }
 
 .pricing-table {
-  background-color: #9ab358;
+  background-color: rgba(31, 30, 30, 0.9); /* Darker background with less transparency for better contrast */
   border-radius: 10px;
-  padding: 20px;
-  width: 400px;
+  padding: 30px;
+  width: 380px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5); /* Subtle shadow */
+  transition: all 0.3s ease-in-out;
+}
+
+.pricing-table:hover {
+  transform: translateY(-10px); /* Smooth hover lift */
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.7); /* Slightly deeper shadow on hover */
 }
 
 .pricing-table h3 {
   text-align: center;
-  color: #ffcc00;
-  margin-bottom: 10px;
+  color: #ff9900;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: "Arial", sans-serif;
 }
 
 .pricing-table table {
   width: 100%;
   border-collapse: collapse;
+  margin-top: 20px;
 }
 
 .pricing-table th,
 .pricing-table td {
-  text-align: left;
-  padding: 8px;
+  text-align: center;
+  padding: 12px;
   border: 1px solid #444;
   color: #fff;
+  font-size: 1.1rem;
 }
 
 .pricing-table th {
-  background-color: #222;
+  background-color: #333; /* Darker header background for better readability */
+  font-weight: 600;
 }
 
 .pricing-table td {
-  background-color: #121212;
+  background-color: #222;
+}
+
+.pricing-table tr:hover {
+  background-color: #444; /* Subtle hover effect on rows */
+}
+
+.pricing-table .distance-column {
+  font-weight: bold;
+  color: #ff9900;
+}
+
+.pricing-table .charges-column {
+  font-weight: bold;
+  color: #ffcc00;
+}
+
+/* Add responsiveness for smaller devices */
+@media screen and (max-width: 768px) {
+  .pricing-tables {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pricing-table {
+    width: 100%;
+    max-width: 500px; /* Makes the tables a bit wider on smaller screens */
+    margin-bottom: 20px;
+  }
+
+  .pricing-section h2 {
+    font-size: 2.2rem;
+  }
 }
