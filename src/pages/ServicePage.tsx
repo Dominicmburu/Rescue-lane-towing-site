@@ -5,6 +5,7 @@ import carTowingImage from "../../public/Images/Services/car-towing.jpg";
 import roadsideAssistanceImage from "../../public/Images/Services/roadside-assistance.jpg";
 import accidentRecoveryImage from "../../public/Images/Services/accident-recovery.jpg";
 import heavyLiftingImage from "../../public/Images/Services/heavy-lifting.jpg";
+import remoteImage from "../../public/Images/Services/remote.jpg";
 
 const ServicesPage: React.FC = () => {
   return (
@@ -96,7 +97,7 @@ const ServicesPage: React.FC = () => {
 
             <div className="service-card">
               <img
-                src="https://www.tele-radio.com/app/uploads/remote-control-tow-truck-custom-foils-teleradio-2.png"
+                src={remoteImage}
                 alt="Vehicle Recovery in Remote Areas"
               />
               <h3>REMOTE VEHICLE RECOVERY</h3>
